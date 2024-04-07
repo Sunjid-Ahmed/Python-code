@@ -1,0 +1,4 @@
+import qrcode
+data = input("enter your url:")
+img = qrcode.make(data)
+img.save("qr_code.png")
